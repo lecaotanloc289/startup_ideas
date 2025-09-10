@@ -1,0 +1,5 @@
+next-auth@beta
+-> run command: npx auth secret
+-> documentation: auth.js
+pnpm i tailwindcss-animate tailwindcss/typography
+npx shadcn@latest init
