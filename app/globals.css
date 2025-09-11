@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "../app/assets/fontawesome6.4.2/css/all.css";
 
 @custom-variant dark (&:is(.dark *));
 @plugin "@tailwindcss/typography";
@@ -12,9 +13,12 @@
   --breakpoint-xs: 475px;
 
   /* colors */
+  /* --color-primary-100: #43467F; */
+  /* --color-primary: #43467F; */
+  /* --color-primary: #5c6ac4; */
+  
   --color-primary-100: #ffe8f0;
   --color-primary: #ee2b69;
-
   --color-secondary: #fbe843;
 
   --color-black-100: #333333;
