@@ -3,3 +3,12 @@ next-auth@beta
 -> documentation: auth.js
 pnpm i tailwindcss-animate tailwindcss/typography
 npx shadcn@latest init
+npm create sanity@latest -- --project d97jabvh --dataset production --template clean --typescript --output-path studio-jsm-startup-ideas
+cd studio-jsm-startup-ideas
+pnpm i next-sanity@canary
+pnpm i sanity-plugin-markdown easymde
+npx sanity@latest schema extract --path=./sanity/extract.json
+npx sanity@latest typegen generate
+pnpm i server-only
+pnpm i --save-dev @types/markdown-it
+npx shadcn@latest add skeleton
