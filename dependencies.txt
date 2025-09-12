@@ -12,3 +12,6 @@ npx sanity@latest typegen generate
 pnpm i server-only
 pnpm i --save-dev @types/markdown-it
 npx shadcn@latest add skeleton
+npx shadcn@latest add input textarea toast
+-> The toast component is deprecated. Use the sonner component instead.
+pnpm i @uiw/react-md-editor
