@@ -19,3 +19,4 @@ pnpm i zod
 pnpm i slugify
 npx @sentry/wizard@latest -i nextjs --saas --org vaa-nt --project javascript-nextjs
 npx shadcn@latest add avatar
+pnpm i require-in-the-middle import-in-the-middle dataloader
