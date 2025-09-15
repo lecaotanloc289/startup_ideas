@@ -16,3 +16,5 @@ npx shadcn@latest add input textarea sonner
 -> The toast component is deprecated. Use the sonner component instead.
 pnpm i @uiw/react-md-editor
 pnpm i zod
+pnpm i slugify
+npx @sentry/wizard@latest -i nextjs --saas --org vaa-nt --project javascript-nextjs
